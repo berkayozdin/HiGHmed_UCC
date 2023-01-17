@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "Example-Anamnese-Implant-Device-Schrittmacher",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Implant-Device-Schrittmacher"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14106009",
+        "display": "Cardiac pacemaker, device (physical object)"
+      }
+    ]
+  }
+}

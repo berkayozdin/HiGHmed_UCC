@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Diagnostic_Report_SNOMED_CT",
+  "id": "vs-highmed-ucc-diagnostic-report-snomed-ct",
+  "title": "VS HiGHmed UCC Diagnostic Report [SNOMED CT]",
+  "description": "ValueSet for the cardiologic report consists of observations",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-diagnostic-report-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "271925006",
+            "display": "Cardiovascular test finding (observable entity)"
+          }
+        ]
+      }
+    ]
+  }
+}

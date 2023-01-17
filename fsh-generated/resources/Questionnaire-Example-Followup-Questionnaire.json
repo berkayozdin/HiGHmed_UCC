@@ -1,0 +1,13 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Example-Followup-Questionnaire",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Followup-Questionnaire"
+    ]
+  },
+  "url": "https://aci.health.nsw.gov.au/__data/assets/pdf_file/0007/632851/Kansas-City-Cardiomyopathy-Questionnaire.pdf",
+  "version": "2",
+  "title": "KCCQ12",
+  "status": "active"
+}

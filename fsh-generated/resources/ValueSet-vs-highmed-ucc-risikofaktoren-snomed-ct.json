@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Risikofaktoren_SNOMED_CT",
+  "id": "vs-highmed-ucc-risikofaktoren-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-risikofaktoren-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "370992007",
+            "display": "Dyslipidemia (disorder)"
+          },
+          {
+            "code": "73211009",
+            "display": "Diabetes mellitus (disorder)"
+          },
+          {
+            "code": "11399002",
+            "display": "Pulmonary hypertensive arterial disease (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

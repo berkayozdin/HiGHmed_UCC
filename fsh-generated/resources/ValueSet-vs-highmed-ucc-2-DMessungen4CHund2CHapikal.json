@@ -1,0 +1,113 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_2_DMessungen4CHund2CHapikal",
+  "id": "vs-highmed-ucc-2-DMessungen4CHund2CHapikal",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-2-DMessungen4CHund2CHapikal",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "250908004",
+            "display": "Left ventricular ejection fraction (observable entity)"
+          },
+          {
+            "code": "250907009",
+            "display": "Left ventricular function (observable entity)"
+          },
+          {
+            "code": "250932006",
+            "display": "Left ventricular end-diastolic cavity size (observable entity)"
+          },
+          {
+            "code": "250931004",
+            "display": "Left ventricular end-systolic cavity size (observable entity)"
+          },
+          {
+            "code": "253522006",
+            "display": "Dilatation of right cardiac ventricle (disorder)"
+          },
+          {
+            "code": "373945007",
+            "display": "Pericardial effusion (disorder)"
+          },
+          {
+            "code": "260413007",
+            "display": "None (qualifier value)"
+          },
+          {
+            "code": "255605001",
+            "display": "Minimal (qualifier value)"
+          },
+          {
+            "code": "62482003",
+            "display": "Low (qualifier value)"
+          },
+          {
+            "code": "6736007",
+            "display": "Moderate (severity modifier) (qualifier value)"
+          },
+          {
+            "code": "255509001",
+            "display": "Large (qualifier value)"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "79974-2",
+            "display": "Left atrial Area at end systole by US.2D.A4C+Measured by planimetry"
+          },
+          {
+            "code": "93637-7",
+            "display": "Left atrial End-systolic volume/Body surface area [Volume/Area] by US.2D.A4C+Calc by single plane area-length method"
+          },
+          {
+            "code": "77906-6",
+            "display": "Left atrial End-systolic volume/Body surface area [Volume/Area] by US.2D+Calculated by modified Simpson method"
+          },
+          {
+            "code": "18023-2",
+            "display": "Tricuspid valve annulus Diameter by US"
+          },
+          {
+            "code": "18017-4",
+            "display": "Mitral valve annulus Diameter by US"
+          },
+          {
+            "code": "18006-7",
+            "display": "Inferior vena cava Diameter by US"
+          },
+          {
+            "code": "79981-7",
+            "display": "Left atrial End-systolic volume by US.2D+Calculated by biplane area-length method"
+          },
+          {
+            "code": "79982-5",
+            "display": "Left atrial End-systolic volume (by US.2D+Calculated by biplane area-length method)/Body surface area"
+          },
+          {
+            "code": "93635-1",
+            "display": "Right atrial End-systolic volume by US.2D.A4C"
+          },
+          {
+            "code": "8277-6",
+            "display": "Body surface area"
+          },
+          {
+            "code": "80075-5",
+            "display": "Right atrial Area at end systole by US.2D.A4C+Measured by planimetry"
+          }
+        ]
+      }
+    ]
+  }
+}

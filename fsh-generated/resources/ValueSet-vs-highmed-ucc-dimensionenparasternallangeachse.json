@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_DimensionenParasternalLangeAchse",
+  "id": "vs-highmed-ucc-dimensionenparasternallangeachse",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-dimensionenparasternallangeachse",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "29468-6",
+            "display": "Left atrial Diameter anterior-posterior systole by US 2D"
+          },
+          {
+            "code": "79968-4",
+            "display": "Interventricular septum Thickness at end diastole by US.M-mode"
+          },
+          {
+            "code": "80028-4",
+            "display": "Left ventricular outflow tract Diameter at end diastole by US 2D (cm)"
+          },
+          {
+            "code": "29444-7",
+            "display": "Left ventricular posterior wall Thickness during systole by US 2D"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "302287000",
+            "display": "Aortic diameter (observable entity)"
+          },
+          {
+            "code": "24058001",
+            "display": "Echocardiography for determining posterior left ventricular wall thickness (procedure)"
+          }
+        ]
+      }
+    ]
+  }
+}

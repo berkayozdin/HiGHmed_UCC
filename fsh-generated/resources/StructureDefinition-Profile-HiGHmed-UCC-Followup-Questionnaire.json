@@ -1,0 +1,157 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-HiGHmed-UCC-Followup-Questionnaire",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Definitional Artifacts"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Followup-Questionnaire",
+  "version": "0.1.0",
+  "name": "Profile_HiGHmed_UCC_Followup_Questionnaire",
+  "title": "Profile - HiGHmed - Use Case Cardio - DiagnosticReport",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "description": "Dieses Profil beschreibt einen befund in HiGHmed Use Case Cardio",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "objimpl",
+      "uri": "http://hl7.org/fhir/object-implementation",
+      "name": "Object Implementation Information"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Questionnaire",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Questionnaire",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Questionnaire.url",
+        "path": "Questionnaire.url",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.identifier",
+        "path": "Questionnaire.identifier",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.version",
+        "path": "Questionnaire.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.title",
+        "path": "Questionnaire.title",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.status",
+        "path": "Questionnaire.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.date",
+        "path": "Questionnaire.date",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.useContext",
+        "path": "Questionnaire.useContext",
+        "comment": "Defines the broad questionnaire context. Different contexts could be diagnosis, lesion or organ.",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.code",
+        "path": "Questionnaire.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item",
+        "path": "Questionnaire.item",
+        "max": "12",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.linkId",
+        "path": "Questionnaire.item.linkId",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.code",
+        "path": "Questionnaire.item.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.text",
+        "path": "Questionnaire.item.text",
+        "requirements": "QuestionGroupHeaderText (e.g. Peritoneum) or QuestionText (e.g. Ascites).",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.type",
+        "path": "Questionnaire.item.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.repeats",
+        "path": "Questionnaire.item.repeats",
+        "mustSupport": false
+      },
+      {
+        "id": "Questionnaire.item.answerValueSet",
+        "path": "Questionnaire.item.answerValueSet",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.answerOption",
+        "path": "Questionnaire.item.answerOption",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.answerOption.value[x]",
+        "path": "Questionnaire.item.answerOption.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.item",
+        "path": "Questionnaire.item.item",
+        "mustSupport": true
+      }
+    ]
+  }
+}

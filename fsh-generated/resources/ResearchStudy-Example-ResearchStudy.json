@@ -1,0 +1,22 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "Example-ResearchStudy",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-ResearchStudy"
+    ]
+  },
+  "status": "completed",
+  "title": "HiGHmed- Use Case Cardiology",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "305357000",
+          "system": "http://snomed.info/sct",
+          "display": "Admission to cardiology department (procedure)"
+        }
+      ]
+    }
+  ]
+}

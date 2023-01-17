@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "Example-Anamnese-Implant-Device-Andere",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Implant-Device-Andere"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "467207002",
+        "display": "Cardiac contractility modulation system (physical object)"
+      }
+    ]
+  }
+}

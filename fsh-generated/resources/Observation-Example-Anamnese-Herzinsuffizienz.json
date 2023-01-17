@@ -1,0 +1,64 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Anamnese-Herzinsuffizienz",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Herzinsuffizienz"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "417662000",
+          "system": "http://snomed.info/sct",
+          "display": "History of clinical finding in subject (situation)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "84114007",
+        "display": "Heart failure (disorder)"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52101004",
+        "display": "Present (qualifier value)"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "88020-3",
+            "system": "http://loinc.org",
+            "display": "Functional capacity NYHA"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "I",
+            "display": "Class I"
+          }
+        ]
+      }
+    }
+  ]
+}

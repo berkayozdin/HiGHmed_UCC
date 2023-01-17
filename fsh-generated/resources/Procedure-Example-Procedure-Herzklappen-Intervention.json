@@ -1,0 +1,41 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-Procedure-Herzklappen-Intervention",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Procedure-Herzklappen-Intervention"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": {
+    "coding": [
+      {
+        "code": "417662000",
+        "system": "http://snomed.info/sct",
+        "display": "History of clinical finding in subject (situation)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "118798003",
+        "display": "Procedure on heart valve (procedure)"
+      }
+    ]
+  },
+  "performedDateTime": "2021-05-16T08:49:21+02:00",
+  "bodySite": [
+    {
+      "coding": [
+        {
+          "code": "34202007"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-Procedure-Bypass",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Procedure-Bypass"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": {
+    "coding": [
+      {
+        "code": "417662000",
+        "system": "http://snomed.info/sct",
+        "display": "History of clinical finding in subject (situation)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "232717009",
+        "display": "Coronary artery bypass grafting (procedure)"
+      }
+    ]
+  },
+  "performedDateTime": "2021-05-16T08:49:21+02:00"
+}

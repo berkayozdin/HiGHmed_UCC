@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Hautfarbe_SNOMED_CT",
+  "id": "vs-highmed-ucc-hautfarbe-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-hautfarbe-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "402607006",
+            "display": "Constitutive skin pigmentation finding (finding)"
+          },
+          {
+            "code": "403243002",
+            "display": "Black constitutive skin color (finding)"
+          },
+          {
+            "code": "74964007",
+            "display": "Other (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

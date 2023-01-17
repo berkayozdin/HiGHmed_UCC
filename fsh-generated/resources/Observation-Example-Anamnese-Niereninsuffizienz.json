@@ -1,0 +1,64 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Anamnese-Niereninsuffizienz",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Niereninsuffizienz"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "417662000",
+          "system": "http://snomed.info/sct",
+          "display": "History of clinical finding in subject (situation)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "723188008",
+        "display": "Renal insufficiency (disorder)"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "2667000",
+        "display": "Absent (qualifier value)"
+      }
+    ]
+  },
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "385971003",
+            "system": "http://snomed.info/sct",
+            "display": "Dialysis care (regime/therapy)"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "2667000",
+            "display": "Absent (qualifier value)"
+          }
+        ]
+      }
+    }
+  ]
+}

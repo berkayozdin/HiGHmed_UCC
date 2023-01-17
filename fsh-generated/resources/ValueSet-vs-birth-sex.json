@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_BirthSex",
+  "id": "vs-birth-sex",
+  "title": "Birth-Sex",
+  "description": "Sex at birth",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-birth-sex",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://highmed.org/fhir/StructureDefinition/cardio/CodeSystem/anamnese-geschlecht",
+        "concept": [
+          {
+            "code": "M",
+            "display": "mannlich"
+          },
+          {
+            "code": "W",
+            "display": "weiblich"
+          },
+          {
+            "code": "X",
+            "display": "unbestimmt"
+          },
+          {
+            "code": "D",
+            "display": "divers"
+          }
+        ]
+      }
+    ]
+  }
+}

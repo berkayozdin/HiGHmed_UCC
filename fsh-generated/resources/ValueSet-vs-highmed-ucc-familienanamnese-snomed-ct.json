@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Familienanamnese_SNOMED_CT",
+  "id": "vs-highmed-ucc-familienanamnese-snomed-ct",
+  "title": "VS HiGHmed UCC Templates [SNOMED CT]",
+  "description": "ValueSet for the description of Cardio Family History",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-familienanamnese-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "160270001",
+            "display": "No family history: Cardiovascular disease (situation)"
+          },
+          {
+            "code": "266894000",
+            "display": "Family history: Cardiovascular disease (situation)"
+          }
+        ]
+      }
+    ]
+  }
+}

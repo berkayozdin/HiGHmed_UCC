@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Gewebe_DopplerTDI",
+  "id": "vs-highmed-ucc-gewebe-dopplertDI",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-gewebe-dopplertDI",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "79925-4",
+            "display": "Tricuspid valve Maximum E-wave velocity by US.doppler"
+          },
+          {
+            "code": "79923-9",
+            "display": "Tricuspid valve Maximum A-wave velocity by US.doppler"
+          },
+          {
+            "code": "79926-2",
+            "display": "Tricuspid valve annulus Tissue velocity.S-wave.max by US.tissue doppler"
+          }
+        ]
+      }
+    ]
+  }
+}

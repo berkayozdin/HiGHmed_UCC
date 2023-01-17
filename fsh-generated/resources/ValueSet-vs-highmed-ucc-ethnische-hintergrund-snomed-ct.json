@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Etnische_Hintergrund_SNOMED_CT",
+  "id": "vs-highmed-ucc-ethnische-hintergrund-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-ethnische-hintergrund-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "372148003",
+            "display": "Ethnic group (ethnic group)"
+          },
+          {
+            "code": "14045001",
+            "display": "Caucasian (ethnic group)"
+          },
+          {
+            "code": "74964007",
+            "display": "Other (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Echokardiographie-Korperoberflache",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Echokardiographie-Korperoberflache"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "40701008",
+          "system": "http://snomed.info/sct",
+          "display": "Echocardiography (procedure)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301898006",
+        "display": "Body surface area (observable entity)"
+      }
+    ]
+  },
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "code": "m",
+    "unit": "m",
+    "value": 5
+  }
+}

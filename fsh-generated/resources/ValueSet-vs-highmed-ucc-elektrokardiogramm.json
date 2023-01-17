@@ -1,0 +1,121 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Elektrokardiogramm",
+  "id": "vs-highmed-ucc-elektrokardiogramm",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-elektrokardiogramm",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "365411005",
+            "display": "Finding of electrocardiogram PR interval (finding)"
+          },
+          {
+            "code": "251208001",
+            "display": "QRS complex duration (observable entity)"
+          },
+          {
+            "code": "301117000",
+            "display": "QT interval duration (observable entity)QT interval duration (observable entity)"
+          },
+          {
+            "code": "251150006",
+            "display": "Sinus rhythm (finding)"
+          },
+          {
+            "code": "49436004",
+            "display": "Atrial fibrillation (disorder)"
+          },
+          {
+            "code": "74964007",
+            "display": "Other (qualifier value)"
+          },
+          {
+            "code": "10370003",
+            "display": "Rhythm from artificial pacing (finding)"
+          },
+          {
+            "code": "24607002",
+            "display": "Q wave feature (observable entity)"
+          },
+          {
+            "code": "41011002",
+            "display": "T wave feature (observable entity)"
+          },
+          {
+            "code": "54016002",
+            "display": "Mobitz type I incomplete atrioventricular block (disorder)"
+          },
+          {
+            "code": "28189009",
+            "display": "Mobitz type II atrioventricular block (disorder)"
+          },
+          {
+            "code": "6374002",
+            "display": "Bundle branch block (disorder)"
+          },
+          {
+            "code": "63467002",
+            "display": "Left bundle branch block (disorder)"
+          },
+          {
+            "code": "59118001",
+            "display": "Right bundle branch block (disorder)"
+          },
+          {
+            "code": "251120003",
+            "display": "Incomplete left bundle branch block (disorder)"
+          },
+          {
+            "code": "251124007",
+            "display": "Incomplete right bundle branch block (disorder)"
+          },
+          {
+            "code": "6180003",
+            "display": "Complete left bundle branch block (disorder)"
+          },
+          {
+            "code": "251123001",
+            "display": "Complete right bundle branch block (disorder)"
+          },
+          {
+            "code": "2374000",
+            "display": "Monofascicular block (disorder)"
+          },
+          {
+            "code": "445118002",
+            "display": "Left anterior fascicular block on electrocardiogram (finding)"
+          },
+          {
+            "code": "445211001",
+            "display": "Left posterior fascicular block on electrocardiogram (finding)"
+          },
+          {
+            "code": "365416000",
+            "display": "Finding of electrocardiogram ST segment (finding)"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "99675-1",
+            "display": "Pacemaker Atrial electrical activity captured\t"
+          },
+          {
+            "code": "99689-2",
+            "display": "Pacemaker Ventricular electrical activity captured"
+          }
+        ]
+      }
+    ]
+  }
+}

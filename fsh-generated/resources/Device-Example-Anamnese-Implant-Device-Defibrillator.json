@@ -1,0 +1,18 @@
+{
+  "resourceType": "Device",
+  "id": "Example-Anamnese-Implant-Device-Defibrillator",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Implant-Device-Defibrillator"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72506001",
+        "display": "Implantable defibrillator, device (physical object)"
+      }
+    ]
+  }
+}

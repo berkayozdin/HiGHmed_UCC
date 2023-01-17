@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Anamnese-Hautfarbe",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Hautfarbe"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "417662000",
+          "system": "http://snomed.info/sct",
+          "display": "History of clinical finding in subject (situation)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "402607006",
+        "display": "Constitutive skin pigmentation finding (finding)"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "403243002",
+        "display": "Black constitutive skin color (finding)"
+      }
+    ]
+  }
+}

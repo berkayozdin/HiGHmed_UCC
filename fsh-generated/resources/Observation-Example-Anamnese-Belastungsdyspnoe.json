@@ -1,0 +1,42 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Anamnese-Belastungsdyspnoe",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Belastungsdyspnoe"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "417662000",
+          "system": "http://snomed.info/sct",
+          "display": "History of clinical finding in subject (situation)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "60845006",
+        "display": "Dyspnea on exertion (finding)"
+      }
+    ]
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "52101004",
+        "display": "Present (qualifier value)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Rauch_und_Alkohol_SNOMED_CT",
+  "id": "vs-highmed-ucc-rauch-und-alkohol-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-rauch-und-alkohol-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "7200002",
+            "display": "Alcoholism (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "44940-5",
+            "display": "Alcoholic drinks per week - Reported"
+          }
+        ]
+      }
+    ]
+  }
+}

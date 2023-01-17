@@ -1,0 +1,218 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-HiGHmed-UCC-Followup-Response",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Followup-Response",
+  "version": "0.1.0",
+  "name": "Profile_HiGHmed_UCC_Followup_Response",
+  "title": "Profile - HiGHmed - Use Case Cardio - DiagnosticReport",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "description": "Dieses Profil beschreibt einen befund in HiGHmed Use Case Cardio",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "QuestionnaireResponse",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "QuestionnaireResponse.identifier",
+        "path": "QuestionnaireResponse.identifier",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.basedOn",
+        "path": "QuestionnaireResponse.basedOn",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.questionnaire",
+        "path": "QuestionnaireResponse.questionnaire",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.status",
+        "path": "QuestionnaireResponse.status",
+        "fixedCode": "completed"
+      },
+      {
+        "id": "QuestionnaireResponse.subject",
+        "path": "QuestionnaireResponse.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ],
+            "aggregation": [
+              "contained",
+              "referenced"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.subject.reference",
+        "path": "QuestionnaireResponse.subject.reference",
+        "min": 1
+      },
+      {
+        "id": "QuestionnaireResponse.subject.identifier",
+        "path": "QuestionnaireResponse.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.subject.display",
+        "path": "QuestionnaireResponse.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.authored",
+        "path": "QuestionnaireResponse.authored",
+        "min": 1
+      },
+      {
+        "id": "QuestionnaireResponse.author",
+        "path": "QuestionnaireResponse.author",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.source",
+        "path": "QuestionnaireResponse.source",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item",
+        "path": "QuestionnaireResponse.item",
+        "max": "12"
+      },
+      {
+        "id": "QuestionnaireResponse.item.definition",
+        "path": "QuestionnaireResponse.item.definition",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.text",
+        "path": "QuestionnaireResponse.item.text",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.answer",
+        "path": "QuestionnaireResponse.item.answer",
+        "max": "1"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item",
+        "path": "QuestionnaireResponse.item.item",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.definition",
+        "path": "QuestionnaireResponse.item.item.definition",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.text",
+        "path": "QuestionnaireResponse.item.item.text",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer",
+        "path": "QuestionnaireResponse.item.item.answer",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.value[x]",
+        "path": "QuestionnaireResponse.item.item.answer.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.valueCoding",
+        "path": "QuestionnaireResponse.item.item.answer.valueCoding",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ]
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.valueCoding.system",
+        "path": "QuestionnaireResponse.item.item.answer.valueCoding.system",
+        "min": 1
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.valueCoding.version",
+        "path": "QuestionnaireResponse.item.item.answer.valueCoding.version",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.valueCoding.code",
+        "path": "QuestionnaireResponse.item.item.answer.valueCoding.code",
+        "min": 1
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.valueCoding.userSelected",
+        "path": "QuestionnaireResponse.item.item.answer.valueCoding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.answer.item",
+        "path": "QuestionnaireResponse.item.item.answer.item",
+        "max": "0"
+      },
+      {
+        "id": "QuestionnaireResponse.item.item.item",
+        "path": "QuestionnaireResponse.item.item.item",
+        "max": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "Example-Anamnese-Familienanamnese",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Familienanamnese"
+    ]
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "patient": {
+    "reference": "Patient"
+  },
+  "status": "partial"
+}

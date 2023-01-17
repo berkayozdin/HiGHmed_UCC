@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Echokardiographie_Korperoberflache",
+  "id": "vs-highmed-ucc-echokardiographie-korperoberflache",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-echokardiographie-korperoberflache",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "301898006",
+            "display": "Body surface area (observable entity)"
+          }
+        ]
+      }
+    ]
+  }
+}

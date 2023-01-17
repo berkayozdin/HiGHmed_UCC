@@ -1,0 +1,177 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Magnetresonanztomografie",
+  "id": "vs-highmed-ucc-magnetresonanztomografie",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-magnetresonanztomografie",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "93642-7",
+            "display": "Right ventricular outflow tract proximal Diameter by US.2D.PSAX"
+          },
+          {
+            "code": "80076-3",
+            "display": "Right atrial Major axis at end systole [Length] by US.2D.A4C"
+          },
+          {
+            "code": "80077-1",
+            "display": "Right atrial Minor axis at end systole [Length] by US.2D.A4C"
+          },
+          {
+            "code": "77903-3",
+            "display": "Tricuspid valve annulus Excursion distance during systole by US.M-mode"
+          },
+          {
+            "code": "17977-0",
+            "display": "Left atrial Area by US.2D.A4C"
+          },
+          {
+            "code": "99528-2",
+            "display": "Thickness [Length] of Interventricular septum"
+          },
+          {
+            "code": "79997-3",
+            "display": "Left ventricular End-diastolic volume (by US.2D+Calculated by biplane method of disks)/Body surface area"
+          },
+          {
+            "code": "80002-9",
+            "display": "Left ventricular End-systolic volume (by US.2D+Calculated by biplane method of disks)/Body surface area"
+          },
+          {
+            "code": "76297-1",
+            "display": "Left ventricular Stroke volume index"
+          },
+          {
+            "code": "77897-7",
+            "display": "Left ventricular Myocardial mass/Body surface area [Mass/Area] by US 2D"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "399109006",
+            "display": "Left ventricular diastolic area (observable entity)"
+          },
+          {
+            "code": "399030000",
+            "display": "Left ventricular systolic area (observable entity)"
+          },
+          {
+            "code": "250908004",
+            "display": "Left ventricular ejection fraction (observable entity)"
+          },
+          {
+            "code": "250939002",
+            "display": "Right ventricular ejection fraction (observable entity)"
+          },
+          {
+            "code": "250966002",
+            "display": "Right ventricular end-diastolic cavity size (observable entity)"
+          },
+          {
+            "code": "250965003",
+            "display": "Right ventricular end-systolic cavity size (observable entity)"
+          },
+          {
+            "code": "250960008",
+            "display": "Right ventricular mass (finding)"
+          },
+          {
+            "code": "82799009",
+            "display": "Cardiac output (observable entity)"
+          },
+          {
+            "code": "54993008",
+            "display": "Cardiac index (observable entity)"
+          },
+          {
+            "code": "264850008",
+            "display": "Structure of basal anterior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396482007",
+            "display": "Structure of basal anteroseptal segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "730605003",
+            "display": "Entire basal inferoseptal segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264846001",
+            "display": "Structure of basal inferior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396652009",
+            "display": "Structure of basal inferolateral segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396654005",
+            "display": "Structure of basal anterolateral segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264848000",
+            "display": "Structure of mid anterior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396647004",
+            "display": "Structure of mid anteroseptal segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396649001",
+            "display": "Structure of mid inferoseptal segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264847005",
+            "display": "Structure of mid inferior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396655006",
+            "display": "Structure of mid inferolateral segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "396656007",
+            "display": "Structure of mid anterolateral segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264844003",
+            "display": "Structure of apical anterior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264845002",
+            "display": "Structure of apical septal segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264849008",
+            "display": "Structure of apical inferior segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "264853005",
+            "display": "Structure of apical lateral segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "128564006",
+            "display": "Structure of apex of left ventricle (body structure)"
+          },
+          {
+            "code": "113091000",
+            "display": "Magnetic resonance imaging (procedure)"
+          },
+          {
+            "code": "312250003",
+            "display": "Magnetic resonance imaging - action (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

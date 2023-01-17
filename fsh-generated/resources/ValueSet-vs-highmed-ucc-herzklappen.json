@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Herzklappen",
+  "id": "vs-highmed-ucc-herzklappen",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-herzklappen",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "48724000",
+            "display": "Mitral valve regurgitation (disorder)"
+          },
+          {
+            "code": "79619009",
+            "display": " Mitral valve stenosis (disorder)"
+          },
+          {
+            "code": "60234000",
+            "display": "Aortic valve regurgitation (disorder)"
+          },
+          {
+            "code": "60573004",
+            "display": "Aortic valve stenosis (disorder)"
+          },
+          {
+            "code": "91434003",
+            "display": "Pulmonic valve regurgitation (disorder)"
+          },
+          {
+            "code": "111287006",
+            "display": "Tricuspid valve regurgitation (disorder)"
+          }
+        ]
+      }
+    ]
+  }
+}

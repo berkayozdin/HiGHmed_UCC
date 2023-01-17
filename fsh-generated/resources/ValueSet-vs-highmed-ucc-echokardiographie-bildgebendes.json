@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Echokardiographie_Bildgebendes",
+  "id": "vs-highmed-ucc-echokardiographie-bildgebendes",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-echokardiographie-bildgebendes",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "433236007",
+            "display": "Transthoracic echocardiography (procedure)"
+          },
+          {
+            "code": "16310003",
+            "display": "Ultrasonography (procedure)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Anamnese_Bisherige_Interventionen_SNOMED_CT",
+  "id": "vs-highmed-ucc-anamnese-bisherige-interventionen-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-anamnese-bisherige-interventionen-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "415070008",
+            "display": "Percutaneous coronary intervention (procedure)"
+          },
+          {
+            "code": "76580007",
+            "display": "Peripheral arterial bypass (procedure)"
+          },
+          {
+            "code": "232717009",
+            "display": "Coronary artery bypass grafting (procedure)"
+          },
+          {
+            "code": "118798003",
+            "display": "Procedure on heart valve (procedure)"
+          },
+          {
+            "code": "34202007",
+            "display": "Aortic valve structure (body structure)"
+          },
+          {
+            "code": "39057004",
+            "display": "Pulmonary valve structure (body structure)"
+          },
+          {
+            "code": "25510005",
+            "display": "Cardiac valve prosthesis (physical object)"
+          },
+          {
+            "code": "91134007",
+            "display": " Mitral valve structure (body structure)"
+          },
+          {
+            "code": "46030003",
+            "display": "Tricuspid valve structure (body structure)"
+          }
+        ]
+      }
+    ]
+  }
+}

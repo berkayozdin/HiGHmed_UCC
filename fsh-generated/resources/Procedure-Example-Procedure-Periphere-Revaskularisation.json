@@ -1,0 +1,32 @@
+{
+  "resourceType": "Procedure",
+  "id": "Example-Procedure-Periphere-Revaskularisation",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Procedure-Periphere-Revaskularisation"
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "category": {
+    "coding": [
+      {
+        "code": "417662000",
+        "system": "http://snomed.info/sct",
+        "display": "History of clinical finding in subject (situation)"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "76580007",
+        "display": "Peripheral arterial bypass (procedure)"
+      }
+    ]
+  },
+  "performedDateTime": "2021-05-16T08:49:21+02:00"
+}

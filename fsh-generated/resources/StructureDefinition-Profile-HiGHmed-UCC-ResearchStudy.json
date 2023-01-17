@@ -1,0 +1,114 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-HiGHmed-UCC-ResearchStudy",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Public Health &amp; Research"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-ResearchStudy",
+  "version": "0.1.0",
+  "name": "Profile_HiGHmed_UCC_ResearchStudy",
+  "title": "HiGHmed UCC Research Study",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "description": "HiGHmed UCC Research Study",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "BRIDG5.1",
+      "uri": "https://bridgmodel.nci.nih.gov",
+      "name": "BRIDG 5.1 Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "clinicaltrials-gov",
+      "uri": "http://clinicaltrials.gov",
+      "name": "ClinicalTrials.gov Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ResearchStudy",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ResearchStudy",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ResearchStudy.identifier",
+        "path": "ResearchStudy.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.title",
+        "path": "ResearchStudy.title",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.status",
+        "path": "ResearchStudy.status",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category",
+        "path": "ResearchStudy.category",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category.coding",
+        "path": "ResearchStudy.category.coding",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category.coding.system",
+        "path": "ResearchStudy.category.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category.coding.code",
+        "path": "ResearchStudy.category.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.category.coding.display",
+        "path": "ResearchStudy.category.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.contact",
+        "path": "ResearchStudy.contact",
+        "mustSupport": true
+      },
+      {
+        "id": "ResearchStudy.period",
+        "path": "ResearchStudy.period",
+        "mustSupport": true
+      }
+    ]
+  }
+}

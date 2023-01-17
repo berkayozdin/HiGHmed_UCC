@@ -1,0 +1,115 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Profile-HiGHmed-UCC-Anamnese-Implant-Device-Schrittmacher",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Entities"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Implant-Device-Schrittmacher",
+  "version": "0.1.0",
+  "name": "Profile_HiGHmed_UCC_Anamnese_Implant_Device_Schrittmacher",
+  "title": "Implant Devices",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "udi",
+      "uri": "http://fda.gov/UDI",
+      "name": "UDI Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Device",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Device",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Device.identifier",
+        "path": "Device.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.identifier.system",
+        "path": "Device.identifier.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.identifier.value",
+        "path": "Device.identifier.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Device.status",
+        "path": "Device.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName",
+        "path": "Device.deviceName",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.name",
+        "path": "Device.deviceName.name",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.deviceName.type",
+        "path": "Device.deviceName.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.type",
+        "path": "Device.type",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-anamnese-implant-snomed-ct"
+        }
+      },
+      {
+        "id": "Device.version",
+        "path": "Device.version",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.version.value",
+        "path": "Device.version.value",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.property",
+        "path": "Device.property",
+        "mustSupport": true
+      },
+      {
+        "id": "Device.property.type",
+        "path": "Device.property.type",
+        "mustSupport": true
+      }
+    ]
+  }
+}

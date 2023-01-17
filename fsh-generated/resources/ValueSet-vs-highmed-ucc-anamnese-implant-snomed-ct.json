@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Anamnese_Implant_SNOMED_CT",
+  "id": "vs-highmed-ucc-anamnese-implant-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-anamnese-implant-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "307280005",
+            "display": "Implantation of cardiac pacemaker (procedure)"
+          },
+          {
+            "code": "14106009",
+            "display": "Cardiac pacemaker, device (physical object)"
+          },
+          {
+            "code": "395218007",
+            "display": "Implantation of internal cardiac defibrillator (procedure)"
+          },
+          {
+            "code": "467207002",
+            "display": "Cardiac contractility modulation system (physical object)"
+          },
+          {
+            "code": "72506001",
+            "display": "Implantable defibrillator, device (physical object)"
+          }
+        ]
+      }
+    ]
+  }
+}

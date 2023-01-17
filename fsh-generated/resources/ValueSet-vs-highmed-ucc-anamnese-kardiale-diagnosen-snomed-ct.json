@@ -1,0 +1,101 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Anamnese_Kardiale_Diagnosen_SNOMED_CT",
+  "id": "vs-highmed-ucc-anamnese-kardiale-diagnosen-snomed-ct",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-anamnese-kardiale-diagnosen-snomed-ct",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "53741008",
+            "display": "Coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "394841004",
+            "display": "Other category (qualifier value)"
+          },
+          {
+            "code": "84114007",
+            "display": "Heart failure (disorder)"
+          },
+          {
+            "code": "38341003",
+            "display": "Hypertensive disorder, systemic arterial (disorder)"
+          },
+          {
+            "code": "368009",
+            "display": "Heart valve disorder (disorder)"
+          },
+          {
+            "code": "59494005",
+            "display": "Congenital septal defect of heart (disorder)"
+          },
+          {
+            "code": "399020009",
+            "display": "Congestive cardiomyopathy (disorder)"
+          },
+          {
+            "code": "233873004",
+            "display": "Hypertrophic cardiomyopathy (disorder)"
+          },
+          {
+            "code": "415295002",
+            "display": "Restrictive cardiomyopathy (disorder)"
+          },
+          {
+            "code": "253528005",
+            "display": "Arrhythmogenic right ventricular dysplasia (disorder)"
+          },
+          {
+            "code": "16573007",
+            "display": "Senile cardiac amyloidosis (disorder)"
+          },
+          {
+            "code": "82782008",
+            "display": "Toxic effect of ethyl alcohol (disorder)"
+          },
+          {
+            "code": "423661009",
+            "display": "Complication of chemotherapy (disorder)"
+          },
+          {
+            "code": "22298006",
+            "display": "Myocardial infarction (disorder)"
+          },
+          {
+            "code": "50920009",
+            "display": "Myocarditis (disorder)"
+          },
+          {
+            "code": "85898001",
+            "display": "Cardiomyopathy (disorder)"
+          },
+          {
+            "code": "87228002",
+            "display": "Decompensation (finding)"
+          },
+          {
+            "code": "49436004",
+            "display": "Atrial fibrillation (disorder)"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "88020-3",
+            "display": "Functional capacity NYHA"
+          }
+        ]
+      }
+    ]
+  }
+}

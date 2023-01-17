@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "CS_Geschlecht",
+  "id": "anamnese-geschlecht",
+  "title": "Anamnese Geschlecht",
+  "description": "Geschlecht code system von DE Basis profile",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/CodeSystem/anamnese-geschlecht",
+  "concept": [
+    {
+      "code": "M",
+      "display": "männlich"
+    },
+    {
+      "code": "W",
+      "display": "weiblich"
+    },
+    {
+      "code": "X",
+      "display": "unbestimmt"
+    },
+    {
+      "code": "D",
+      "display": "divers"
+    }
+  ],
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "count": 4
+}

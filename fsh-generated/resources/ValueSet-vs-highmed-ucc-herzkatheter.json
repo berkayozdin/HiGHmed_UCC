@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "VS_HiGHmed_UCC_Herzkatheter",
+  "id": "vs-highmed-ucc-herzkatheter",
+  "version": "0.1.0",
+  "url": "http://highmed.org/fhir/StructureDefinition/cardio/ValueSet/vs-highmed-ucc-herzkatheter",
+  "experimental": true,
+  "date": "2022-12-27",
+  "publisher": "https://highmed.org/",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "97549-0",
+            "display": "Oxygen saturation in Central venous blood"
+          },
+          {
+            "code": "95933-8",
+            "display": "Transpulmonary pressure gradient"
+          },
+          {
+            "code": "8834-4",
+            "display": "Pulmonary vascular Resistance index"
+          },
+          {
+            "code": "18066-1",
+            "display": "Aortic valve Mean systole pressure gradient by US.doppler derived full Bernoulli"
+          },
+          {
+            "code": "20222-6",
+            "display": "Ventricular Ejection time by US"
+          },
+          {
+            "code": "59119-8",
+            "display": "Ventricular Diastolic filling period by US"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "404986003",
+            "display": "Cardiac pump effectiveness (observable entity)"
+          },
+          {
+            "code": "54993008",
+            "display": "Cardiac index (observable entity)"
+          },
+          {
+            "code": "40403005",
+            "display": "Catheterization of right heart (procedure)"
+          },
+          {
+            "code": "67629009",
+            "display": "Catheterization of left heart (procedure)"
+          },
+          {
+            "code": "53741008",
+            "display": "Coronary arteriosclerosis (disorder)"
+          },
+          {
+            "code": "194842008",
+            "display": "Single coronary vessel disease (disorder)"
+          },
+          {
+            "code": "194843003",
+            "display": "Double coronary vessel disease (disorder)"
+          },
+          {
+            "code": "233817007",
+            "display": "Triple vessel disease of the heart (disorder)"
+          },
+          {
+            "code": "387828005",
+            "display": "Myocardial biopsy (procedure)"
+          },
+          {
+            "code": "264856002",
+            "display": "Structure of segment of left cardiac ventricle (body structure)"
+          },
+          {
+            "code": "277633001",
+            "display": "Structure of right ventricular segment (body structure)"
+          },
+          {
+            "code": "728681001",
+            "display": "Entire ventricular segment (body structure)"
+          }
+        ]
+      }
+    ]
+  }
+}

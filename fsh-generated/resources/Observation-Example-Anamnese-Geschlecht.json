@@ -1,0 +1,39 @@
+{
+  "resourceType": "Observation",
+  "id": "Example-Anamnese-Geschlecht",
+  "meta": {
+    "profile": [
+      "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Geschlecht"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "social-history",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "76689-9",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "CS_Geschlecht",
+        "code": "X"
+      }
+    ]
+  }
+}
