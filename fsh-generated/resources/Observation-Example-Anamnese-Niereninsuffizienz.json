@@ -6,7 +6,7 @@
       "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Niereninsuffizienz"
     ]
   },
-  "status": "completed",
+  "status": "final",
   "subject": {
     "reference": "Patient"
   },

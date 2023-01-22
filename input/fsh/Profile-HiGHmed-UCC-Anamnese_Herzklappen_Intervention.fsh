@@ -45,7 +45,7 @@ Instance: Example-Procedure-Herzklappen-Intervention
 InstanceOf: Profile_HiGHmed_UCC_Procedure_Herzklappen_Intervention
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * category.coding.code = $SCT#417662000 
 * category.coding.system = $SCT

@@ -10,7 +10,7 @@ Description: "Dieses Profil beschreibt einen befund in HiGHmed Use Case Cardio"
 * identifier ..0
 * basedOn ..0
 * questionnaire ..0
-* status = #completed (exactly)
+* status MS
 * subject 1..
 * subject only Reference(Patient)
 * subject ^type.aggregation[0] = #contained
@@ -44,5 +44,6 @@ Description: "An example of KCCQ12 response"
 
 * subject.reference = "Patient/12345"
 * authored = "2015-02-07T13:28:17-05:00"
+* status = #final
 
 

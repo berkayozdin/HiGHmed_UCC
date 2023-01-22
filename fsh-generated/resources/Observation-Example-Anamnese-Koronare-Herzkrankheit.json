@@ -6,7 +6,7 @@
       "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Anamnese-Koronare-Herzkrankaheit"
     ]
   },
-  "status": "completed",
+  "status": "final",
   "subject": {
     "reference": "Patient"
   },

@@ -84,7 +84,7 @@ Instance: Example-Anamnese-pAVK
 InstanceOf: Profile_HiGHmed_UCC_Anamnese_pAVK
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * category.coding.code = $SCT#417662000 
 * category.coding.system = $SCT

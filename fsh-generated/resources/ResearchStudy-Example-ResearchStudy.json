@@ -6,7 +6,7 @@
       "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-ResearchStudy"
     ]
   },
-  "status": "completed",
+  "status": "final",
   "title": "HiGHmed- Use Case Cardiology",
   "category": [
     {

@@ -44,7 +44,7 @@ Instance: Example-Procedure-Interventionelle-Koronare-Revaskularisation
 InstanceOf: Profile_HiGHmed_UCC_Procedure_Interventionelle_Koronare_Revaskularisation
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * category.coding.code = $SCT#417662000 
 * category.coding.system = $SCT

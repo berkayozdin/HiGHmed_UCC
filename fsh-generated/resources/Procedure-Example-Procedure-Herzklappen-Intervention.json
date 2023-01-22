@@ -6,7 +6,7 @@
       "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Procedure-Herzklappen-Intervention"
     ]
   },
-  "status": "completed",
+  "status": "final",
   "subject": {
     "reference": "Patient"
   },

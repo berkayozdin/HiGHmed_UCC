@@ -21,7 +21,7 @@ Instance: Example-ResearchStudy
 InstanceOf: Profile_HiGHmed_UCC_ResearchStudy
 Usage: #example
 
-* status = #completed
+* status = #final
 * title = "HiGHmed- Use Case Cardiology"
 * category.coding.code = $SCT#305357000
 * category.coding.system = $SCT

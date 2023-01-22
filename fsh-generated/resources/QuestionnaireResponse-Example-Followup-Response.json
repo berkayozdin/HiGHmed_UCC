@@ -6,9 +6,9 @@
       "http://highmed.org/fhir/StructureDefinition/cardio/StructureDefinition/Profile-HiGHmed-UCC-Followup-Response"
     ]
   },
-  "status": "completed",
   "subject": {
     "reference": "Patient/12345"
   },
-  "authored": "2015-02-07T13:28:17-05:00"
+  "authored": "2015-02-07T13:28:17-05:00",
+  "status": "final"
 }

@@ -44,7 +44,7 @@ Instance: Example-Procedure-Periphere-Revaskularisation
 InstanceOf: Profile_HiGHmed_UCC_Procedure_Periphere_Revaskularisation
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * category.coding.code = $SCT#417662000 
 * category.coding.system = $SCT

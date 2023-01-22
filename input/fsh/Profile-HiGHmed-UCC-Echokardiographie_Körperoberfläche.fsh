@@ -63,7 +63,7 @@ Instance: Example-Echokardiographie-Korperoberflache
 InstanceOf: Profile_HiGHmed_UCC_Echokardiographie_Korperoberflache
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * category.coding.code = $SCT#40701008 
 * category.coding.system = $SCT

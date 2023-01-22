@@ -55,7 +55,7 @@ Instance: Example-Anamnese-Geschlecht
 InstanceOf: Profile_HiGHmed_UCC_Anamnese_Geschlecht
 Usage: #example
 
-* status = #completed
+* status = #final
 * subject = Reference(Patient)
 * valueCodeableConcept.coding.system = $gender-amtlich-de
 * valueCodeableConcept.coding.code = CS_Geschlecht#X "unbestimmt"

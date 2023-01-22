@@ -63,7 +63,7 @@
       {
         "id": "QuestionnaireResponse.status",
         "path": "QuestionnaireResponse.status",
-        "fixedCode": "completed"
+        "mustSupport": true
       },
       {
         "id": "QuestionnaireResponse.subject",
