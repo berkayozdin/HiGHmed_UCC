@@ -398,7 +398,7 @@ Id: vs-highmed-ucc-magnetresonanztomografie
 * $SCT#264847005 "Structure of mid inferior segment of left cardiac ventricle (body structure)"
 * $SCT#396655006 "Structure of mid inferolateral segment of left cardiac ventricle (body structure)"
 * $SCT#396656007 "Structure of mid anterolateral segment of left cardiac ventricle (body structure)"
-* $SCT#264844003  "Structure of apical anterior segment of left cardiac ventricle (body structure)"
+* $SCT#264844003 "Structure of apical anterior segment of left cardiac ventricle (body structure)"
 * $SCT#264845002 "Structure of apical septal segment of left cardiac ventricle (body structure)"
 * $SCT#264849008 "Structure of apical inferior segment of left cardiac ventricle (body structure)"
 * $SCT#264853005 "Structure of apical lateral segment of left cardiac ventricle (body structure)"
